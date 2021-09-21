@@ -1,9 +1,9 @@
-package com.plcoding.cryptocurrencyappyt.di
+package usamah.nashirulhaq.cryptocurrencyapp.dependency_injection
 
-import com.plcoding.cryptocurrencyappyt.common.Constants
-import com.plcoding.cryptocurrencyappyt.data.remote.CoinPaprikaApi
-import com.plcoding.cryptocurrencyappyt.data.repository.CoinRepositoryImpl
-import com.plcoding.cryptocurrencyappyt.domain.repository.CoinRepository
+import usamah.nashirulhaq.cryptocurrencyapp.common.Constants
+import usamah.nashirulhaq.cryptocurrencyapp.data.remote.CoinPaprikaApi
+import usamah.nashirulhaq.cryptocurrencyapp.data.repository.CoinRepositoryImpl
+import usamah.nashirulhaq.cryptocurrencyapp.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

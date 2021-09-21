@@ -1,8 +1,9 @@
 package usamah.nashirulhaq.cryptocurrencyapp.data.remote.data_transfer_object
 
 import com.google.gson.annotations.SerializedName
+import usamah.nashirulhaq.cryptocurrencyapp.domain.model.CoinDetail
 
-data class CoinDetailsDto(
+data class CoinDetailDto(
     val description: String,
     @SerializedName("development_status")
     val developmentStatus: String,
@@ -39,3 +40,16 @@ data class CoinDetailsDto(
     val type: String,
     val whitepaper: Whitepaper
 )
+
+fun CoinDetailDto.toCoinDetail(): CoinDetail {
+    return CoinDetail(
+        coinId = id,
+        name = name,
+        description = description,
+        symbol = symbol,
+        rank = rank,
+        isActive = isActive,
+        tags = tags.map { it.name },
+        team = team
+    )
+}

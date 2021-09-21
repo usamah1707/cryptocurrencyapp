@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_detail.components
+package usamah.nashirulhaq.cryptocurrencyapp.presentation.coin_detail.components
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box

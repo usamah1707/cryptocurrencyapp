@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt
+package usamah.nashirulhaq.cryptocurrencyapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_list
+package usamah.nashirulhaq.cryptocurrencyapp.presentation.coin_list
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,12 +13,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.plcoding.cryptocurrencyappyt.presentation.Screen
-import com.plcoding.cryptocurrencyappyt.presentation.coin_list.components.CoinListItem
+import usamah.nashirulhaq.cryptocurrencyapp.presentation.Screen
+import usamah.nashirulhaq.cryptocurrencyapp.presentation.coin_list.components.CoinListItem
 
+@Preview
 @Composable
 fun CoinListScreen(
     navController: NavController,
